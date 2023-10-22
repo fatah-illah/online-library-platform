@@ -1,0 +1,31 @@
+Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*.pyo
+*.egg-info
+dist/
+
+Virtual environments
+venv/
+*.venv
+venv.bak/
+env/
+ENV/
+
+IDE / Editor configs
+.vscode/
+.idea/
+
+Logs and databases
+*.log
+*.sql
+*.sqlite
+
+OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

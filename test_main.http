@@ -1,0 +1,44 @@
+# Test your FastAPI endpoints
+
+# Get all books
+GET http://127.0.0.1:8000/books/
+Accept: application/json
+
+###
+
+# Get a specific book (replace {book_id} with an actual ID, e.g. 1)
+GET http://127.0.0.1:8000/books/{book_id}
+Accept: application/json
+
+###
+
+# Create a new book
+POST http://127.0.0.1:8000/books/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Sample Book",
+  "author": "Sample Author"
+}
+
+###
+
+# Update a specific book (replace {book_id} with an actual ID you want to update, e.g. 2)
+PUT http://127.0.0.1:8000/books/{book_id}
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Updated Book Title",
+  "author": "Updated Author"
+}
+
+###
+
+# Delete a specific book (replace {book_id} with an actual ID you want to delete, e.g. 3)
+DELETE http://127.0.0.1:8000/books/{book_id}
+Accept: application/json
+
+###
+
